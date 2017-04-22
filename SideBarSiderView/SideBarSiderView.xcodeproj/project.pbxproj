@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5908F1C31EAB36AF00076E59 /* SideBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908F1C21EAB36AF00076E59 /* SideBarView.m */; };
+		5908F1C61EAB38FB00076E59 /* FilterConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908F1C51EAB38FB00076E59 /* FilterConditionView.m */; };
+		5908F1C91EAB3A4B00076E59 /* UIView+Extetion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5908F1C81EAB3A4B00076E59 /* UIView+Extetion.m */; };
 		5987AB611EAB34900034D4B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987AB601EAB34900034D4B6 /* main.m */; };
 		5987AB641EAB34900034D4B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987AB631EAB34900034D4B6 /* AppDelegate.m */; };
 		5987AB671EAB34900034D4B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987AB661EAB34900034D4B6 /* ViewController.m */; };
@@ -16,6 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5908F1C11EAB36AF00076E59 /* SideBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideBarView.h; sourceTree = "<group>"; };
+		5908F1C21EAB36AF00076E59 /* SideBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideBarView.m; sourceTree = "<group>"; };
+		5908F1C41EAB38FB00076E59 /* FilterConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterConditionView.h; sourceTree = "<group>"; };
+		5908F1C51EAB38FB00076E59 /* FilterConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterConditionView.m; sourceTree = "<group>"; };
+		5908F1C71EAB3A4B00076E59 /* UIView+Extetion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extetion.h"; sourceTree = "<group>"; };
+		5908F1C81EAB3A4B00076E59 /* UIView+Extetion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extetion.m"; sourceTree = "<group>"; };
 		5987AB5C1EAB34900034D4B6 /* SideBarSiderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideBarSiderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5987AB601EAB34900034D4B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5987AB621EAB34900034D4B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5908F1C01EAB36A500076E59 /* SideBarView */ = {
+			isa = PBXGroup;
+			children = (
+				5908F1C11EAB36AF00076E59 /* SideBarView.h */,
+				5908F1C21EAB36AF00076E59 /* SideBarView.m */,
+				5908F1C41EAB38FB00076E59 /* FilterConditionView.h */,
+				5908F1C51EAB38FB00076E59 /* FilterConditionView.m */,
+			);
+			path = SideBarView;
+			sourceTree = "<group>";
+		};
 		5987AB531EAB34900034D4B6 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +78,13 @@
 		5987AB5E1EAB34900034D4B6 /* SideBarSiderView */ = {
 			isa = PBXGroup;
 			children = (
+				5908F1C01EAB36A500076E59 /* SideBarView */,
 				5987AB621EAB34900034D4B6 /* AppDelegate.h */,
 				5987AB631EAB34900034D4B6 /* AppDelegate.m */,
 				5987AB651EAB34900034D4B6 /* ViewController.h */,
 				5987AB661EAB34900034D4B6 /* ViewController.m */,
+				5908F1C71EAB3A4B00076E59 /* UIView+Extetion.h */,
+				5908F1C81EAB3A4B00076E59 /* UIView+Extetion.m */,
 				5987AB681EAB34900034D4B6 /* Main.storyboard */,
 				5987AB6B1EAB34900034D4B6 /* Assets.xcassets */,
 				5987AB6D1EAB34900034D4B6 /* LaunchScreen.storyboard */,
@@ -150,7 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5908F1C91EAB3A4B00076E59 /* UIView+Extetion.m in Sources */,
 				5987AB671EAB34900034D4B6 /* ViewController.m in Sources */,
+				5908F1C31EAB36AF00076E59 /* SideBarView.m in Sources */,
+				5908F1C61EAB38FB00076E59 /* FilterConditionView.m in Sources */,
 				5987AB641EAB34900034D4B6 /* AppDelegate.m in Sources */,
 				5987AB611EAB34900034D4B6 /* main.m in Sources */,
 			);
@@ -311,6 +337,7 @@
 				5987AB751EAB34900034D4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
