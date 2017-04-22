@@ -31,11 +31,12 @@
 #pragma mark - getters
 -(UIButton *)sideViewShowBtn{
     if (!_sideViewShowBtn) {
-        _sideViewShowBtn = [[UIButton alloc]initWithFrame:CGRectMake(50, 300, 100, 50)];
-        _sideViewShowBtn.backgroundColor = [UIColor yellowColor];
+        _sideViewShowBtn = [[UIButton alloc]initWithFrame:CGRectMake(10, 300, 160, 50)];
+        _sideViewShowBtn.layer.cornerRadius = 3.0;
+        _sideViewShowBtn.backgroundColor = [UIColor colorWithRed:89/255.0 green:170/255.0 blue:250/255.0 alpha:1.0];
         [_sideViewShowBtn addTarget:self action:@selector(showSideBar) forControlEvents:UIControlEventTouchUpInside];
         [_sideViewShowBtn setTitle:@"弹出侧栏筛选视图" forState:UIControlStateNormal];
-        [_sideViewShowBtn setTitleColor:[UIColor blueColor] forState: UIControlStateNormal];
+        [_sideViewShowBtn setTitleColor:[UIColor whiteColor] forState: UIControlStateNormal];
     }
     return _sideViewShowBtn;
 }
